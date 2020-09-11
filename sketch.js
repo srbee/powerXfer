@@ -15,6 +15,8 @@ var Ps , Qs ,Pr , Qr
 function setup() {
   wdth=800;ht=800
   createCanvas(wdth, ht);
+  myLink=createA('https://srbee.github.io/srbee/','Back To Main Menu ')
+  myLink.position(width/2,10)
   
   deltaSlider=createSlider(-90,90,30);
   deltaSlider.position(10,300);//original cood system
